@@ -22,6 +22,8 @@ $mahasiswa = query("SELECT * FROM mahasiswa WHERE id = $id");
 <body>
     <h3>detail mahasiswa</h3>
 
+
+
     <ul>
         <li><img src="img/<?= $mahasiswa['gambar']; ?>" width="100px"></li>
         <li><?= $mahasiswa['nrp']; ?></li>
